@@ -1,0 +1,51 @@
+/*Наши услуги*/
+.services {
+    padding-top: $szb*1.65;
+    padding-bottom: $szb*1.25;
+    color: $bk;
+    background: $sl;
+    text-align: center;
+ }
+ 
+ .our{
+     &_card {
+    background: $wh;
+    padding: $sz*5 $sz*4 $sz*4;
+    transition: 0.3s;
+    margin-bottom: $sz*3;
+    &:hover {
+        background: $hover;
+        color: $wh;
+        box-shadow: 0px $sz $sz*1.2 -3px rgba(0, 0, 0, 0.26);
+        &.icon {
+            color: $wh;
+         }
+        &.button-services {
+            border: $sz/5 solid $wh;
+            color: $wh;
+         }
+     }
+ }
+}
+ 
+ 
+ .icon {
+    transition: 0.3s;
+    font-size: $sz*6;
+    color: $bk;
+ }
+ 
+ .button-services {
+    margin-top: $sz*2;
+    transition: 0.3s;
+    color: $bk;
+    text-transform: $up;
+    border: $sz/5 solid $bk;
+    background: transparent;
+    padding: $sz $sz*1.2 $sz;
+    font-family: 'Open Sans Semibold';
+    &:hover {
+        cursor: pointer;
+     }
+ }
+ 

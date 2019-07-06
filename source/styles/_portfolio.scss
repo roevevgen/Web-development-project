@@ -1,0 +1,48 @@
+/*Портфолио*/
+.portfolio {
+    text-align: center;
+    padding-top: $szb*1.2;
+    padding-bottom: $szb*1.3;
+        button:hover,
+        .focused {
+    color: $bk;
+    background: transparent;
+    border: $sz/5 solid $hover;
+    }
+        img {
+    max-width: 100%;
+    margin-bottom: $sz*3;
+    }
+
+ }
+ 
+ 
+ 
+ .filter {
+    padding: $szb*1.2 0;
+ }
+ 
+ div[filter]{
+    &:hover{
+     img {
+    filter: brightness(50%);
+    transition: 0.3s;
+    }
+    &.text {
+        display: block;
+        width: 100%;
+        color: $wh;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        z-index: 3;
+        text-align: center;
+     }
+}
+}
+ 
+ .text {
+    display: none;
+ }
+ 
+ 

@@ -1,0 +1,75 @@
+.footer {
+    padding-top: $szb*1.65;
+    padding-bottom: $szb*1.25;
+    color: $wh;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    .about__text {
+        color: $wh;
+     }
+     input,
+     textarea {
+       padding: $sz*3;
+       width: 100%;
+       border-radius: $sz;
+       border: none;
+       &:focus {
+        outline: none;
+     }
+    }
+    textarea {
+        margin-top: $sz*3;
+        margin-bottom: $sz*3;
+        resize: none;
+     }
+     button {
+        font-size: $sz*2;
+        font-family: 'Roboto', sans-serif;
+        text-transform: $up;
+        color: #212121;
+        padding: $sz*2 $sz*8;
+        border-radius: $sz;
+        border: none;
+        transition: 0.3s;
+        &:hover {
+            opacity: 0.6;
+         }
+     }
+
+ }
+ 
+ 
+ 
+ .fa-map-marker-alt,
+ .fa-phone,
+ .fa-envelope {
+    font-size: $sz*6.2;
+    color: $wh;
+ }
+ 
+ .circle {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $bl;
+    width: $szb;
+    height: $szb;
+    margin: 0 auto $sz*3.5;
+    p {
+        font-size: $sz*2;
+     }
+ }
+ 
+ 
+ .rules {
+    padding: $sz*2 0;
+    text-align: center;
+    font-weight: $szb*6;
+ }
+ 
+ .form {
+    margin-top: $sz*7;
+ }

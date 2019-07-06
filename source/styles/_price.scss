@@ -1,0 +1,79 @@
+/* Цены */
+.pricing {
+    padding-top: $szb*1.65;
+    padding-bottom: $szb*1.25;
+    color: $bk;
+    background: $az;
+    text-align: center;
+ }
+ 
+ .price {
+    transition: 0.5s;
+    background: $wh;
+    margin-bottom: $sz*2;
+    &:hover {
+        box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.39);
+     }
+    &__head {
+        color: $wh;
+        padding-top: $sz*4;
+        padding-bottom: $sz*6.5;
+        background-image: url(../img/pricing_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: $szb*2.11;
+        
+        p {
+            font-size: $sz*2.5;
+         }
+     }
+     &__head {
+        font-size: $sz*5;
+        sub {
+            vertical-align: middle;
+            font-size: $sz*1.7;
+         }
+        sup {
+            vertical-align: middle;
+            font-size: $sz*2.5;
+         }
+
+     }
+     &__body {
+        font-size: $sz*1.7;
+        color: $gray;
+        ul{
+            li {
+                padding-top: $sz*2.8;
+                padding-bottom: $sz*1.2;
+                margin: 0 auto;
+                max-width: $szb*1.75;
+                border-bottom: 1px solid $sr;
+             }
+
+        }
+     }
+     &__footer {
+        padding: $sz*6 0;
+        & button {
+            cursor: pointer;
+            color: $gray;
+            background: transparent;
+            width: $szb*1.8;
+            height: $sz*6;
+            font-size: $sz*2;
+            border: $sz/5 solid $gray;
+            transition: 0.3s;
+            &:hover {
+                text-transform: $up;
+                color: $wh;
+                background: $hover;
+                border: none;
+             }
+         }
+     }
+     
+
+
+ }
+ 

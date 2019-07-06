@@ -1,0 +1,21 @@
+/*Кнопка наверх*/
+#toTop {
+    z-index: 999;
+    width: $sz*4;
+    height: $sz*4;
+    border: none;
+    font-size: $sz*2;
+    border-radius: 3px;
+    background: $hover;
+    text-align: center;
+    padding: $sz/2;
+    position: fixed;
+    bottom: $sz;
+    right: $sz;
+    cursor: pointer;
+    display: none;
+    color: $bk;
+ }
+ .menu-icon {
+    display: none;
+ }

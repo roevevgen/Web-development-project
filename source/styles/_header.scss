@@ -1,0 +1,65 @@
+/*Шапка*/
+.header {
+    color: $wh;
+    text-align: center;
+    padding: $szb*1.8 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url(../img/header.png);
+    &__title {
+        font-size: $sz*5.5;
+
+     }
+     &__text {
+        font-size: $sz*2;
+        margin-bottom: $szb;
+     }
+ }
+ 
+ 
+ 
+ .button {
+    text-transform: $up;
+    cursor: pointer;
+    padding: $sz $sz*2.5;
+    margin: 0 $sz;
+    color: $wh;
+    transition: 0.3s;
+    background: $hover;
+    border: 2px solid $hover;
+
+    &:hover {
+        background: transparent;
+        border: 2px solid $wh;
+     }
+ }
+ 
+ 
+ /*О нас*/
+ .about {
+    padding-top: $szb*1.2;
+    padding-bottom: $szb*1.25;
+    color: $bk;
+    background: $wh;
+    text-align: center;
+    &__title {
+        font-size: $sz*3;
+        font-weight: bold;
+     }
+     &__text {
+        color: $gray;
+        font-size: $sz*1.5;
+        margin-bottom: $szb*1.1;
+     }
+     &_h3 {
+        margin-top: $sz*3;
+        margin-bottom:$sz*2;
+        font-family: 'Open Sans Semibold';
+        font-size: $sz*2;
+     }
+
+ }
+ 
+
+ 
+ 

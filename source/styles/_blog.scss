@@ -1,0 +1,77 @@
+/*Блог*/
+.blog-item {
+    width: 48%;
+ }
+ 
+ .left{
+    &>div{
+    &:first-child {
+        order: 1;
+     }
+     &:last-child {
+        order: 2;
+     }
+
+    }
+ }
+ 
+ 
+ 
+ .right{
+     &>div{
+         &:first-child {
+      order: 2;
+   } 
+        &:last-child {
+       order: 1;
+ }  
+  }
+  }
+ 
+ 
+ 
+ .blog {
+    text-align: left;
+    margin-top: $sz*6;
+    a {
+        font-size: $sz*2.5;
+        color: $hover;
+        font-family: 'Open Sans Semibold';
+     }
+     div {
+        margin-top: $sz*1.5;
+        margin-bottom: $sz*2;
+     }
+     span {
+        font-size: $sz*1.7;
+        font-family: 'Open Sans Semibold';
+        margin-right: $sz*3.5;
+     }
+     i {
+        margin-right: $sz*1.5;
+     }
+     p {
+        font-size: $sz*1.5;
+     }
+
+ }
+
+ .button_blog {
+    width: $szb*2.2;
+    height: $sz*7;
+    text-transform: $up;
+    color: $wh;
+    font-size: $sz*2;
+    margin-top: $szb*1.25;
+    transition: 0.3s;
+    border: $sz/5 solid $hover;
+    cursor: pointer;
+    background: $hover;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    &:hover {
+        background: transparent;
+        color: $bk;
+     }
+ }
+ 

@@ -1,0 +1,70 @@
+@media screen and (max-width: 1024px) {
+    nav {
+       display: none;
+    }
+    .logo-bar {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .menu-icon {
+       display: block;
+       background: $hover;
+       border: none;
+       font-size: $sz*2.5;
+       width: $sz*5;
+       height: $sz*5;
+       cursor: pointer;
+    }
+    .blog {
+       margin-top: $sz;
+    }
+    .footer input, .footer textarea {
+       margin-top: $sz*2;
+       margin-bottom: $sz*2;
+    }
+ }
+ @media screen and (max-width: 480px) {
+    .header, .about, .services, .portfolio, .filter, .pricing, .footer {
+       padding: $sz*2;
+    }
+    .header__title {
+       font-size: $sz*4.5;
+    }
+    .header__text, .about__text {
+       margin-bottom: $sz*2;
+    }
+    .button {
+       margin-bottom: $sz;
+    }
+    .team {
+       padding: $sz*2 0;
+    }
+    .team img {
+       max-width: $szb*3.2;
+    }
+    .dots-style, .button_blog, .multiple-items {
+       margin-top: $sz;
+    }
+    .left, .right {
+       flex-direction: column;
+    }
+    .blog-item, .blog {
+       width: 100%;
+    }
+    .right>div{
+
+        &:first-child {
+          order: 1;
+         }
+         &:last-child {
+            order: 2;
+         }
+}   
+    .blog i {
+       margin-right: $sz/2;
+    }
+    .form {
+       margin-top: $sz*2;
+    }
+ }

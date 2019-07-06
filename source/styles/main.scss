@@ -1,0 +1,49 @@
+@import 'variables';
+@import 'fonts';
+
+
+body {
+   font-family: 'Open Sans';
+}
+
+ul,
+li {
+   display: block;
+   padding: 0;
+   margin: 0;
+}
+
+/*Меню*/
+.menu-bar {
+   background: $wh;
+   padding: $sz*2 0;
+   color: $gray;
+}
+
+.menu__item {
+   margin-left: $sz*3.7;
+   a {
+    font-family: 'Open Sans Semibold';
+    font-size: $sz*2;
+    color: $gray;
+    &:hover {
+        text-decoration: none;
+        color: $sr;
+     }
+ }
+}
+
+
+
+
+
+
+@import 'header';
+@import 'services';
+@import 'portfolio';
+@import 'price';
+@import 'team';
+@import 'blog';
+@import 'button_up';
+@import 'footer';
+@import 'media';
